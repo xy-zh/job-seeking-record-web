@@ -1,0 +1,272 @@
+header {
+  background-color: #f5ba13;
+  margin: auto -16px;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+  color: #fff;
+  font-family: "McLaren", cursive;
+  font-weight: 200;
+}
+
+.reference {
+  color: #fff;
+  font-weight: bold;
+  font-size: small;
+}
+
+.job-boards-panel span {
+  margin: 5px;
+}
+
+.search-form input {
+  margin: 5px;
+  box-shadow: 0 2px 5px #ccc;
+  border-color: #fff;
+  border-radius: 5px;
+  width: 240px;
+}
+
+.search-form button {
+  margin-right: 10px;
+  color: #f5ba13;
+  background-color: #fff;
+  font-weight: bold;
+  border-color: #ccc;
+  box-shadow: #ccc;
+  border-radius: 7px;
+  padding: 10px;
+}
+
+.login-panel {
+  position: relative;
+  text-align: center;
+
+  width: 480px;
+  margin: 30px auto 20px auto;
+  padding: 15px;
+}
+
+.login-panel h1 {
+  font-family: "McLaren", cursive;
+  font-weight: bolder;
+}
+
+.login-panel button {
+  margin-left: 10px;
+  color: #f5ba13;
+  background-color: #fff;
+  font-weight: bold;
+  border-color: #ccc;
+  box-shadow: #ccc;
+  border-radius: 7px;
+  padding: 10px;
+}
+
+.logout-button {
+  position: relative;
+  color: #fff;
+  background-color: #f5ba13;
+  font-weight: bold;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.error-message {
+  position: relative;
+  width: 480px;
+  background-color: lightcoral;
+  color: #fff;
+  font-weight: bolder;
+  padding: 15px;
+  border-radius: 7px;
+  margin: 30px auto 20px auto;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+}
+
+.add-application form {
+  position: relative;
+  float: right;
+  width: 500px;
+  margin: 0 30px 10px auto;
+  background: #fff;
+  padding: 15px;
+  border-radius: 7px;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+}
+
+.add-application input {
+  width: 100%;
+  border: none;
+  padding: 4px;
+  outline: none;
+  font-size: 1.2em;
+  resize: none;
+}
+
+.add-application button {
+  position: absolute;
+  background-color: #f5ba13;
+  color: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  cursor: pointer;
+  outline: none;
+}
+
+.add-application-form-handle {
+  top: 29%;
+  right: 5%;
+  border-radius: 30px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  font-weight: bolder;
+}
+
+.add-application-form button {
+  bottom: -18px;
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+}
+
+.add-application-form button:disabled {
+  background-color: #cccccc;
+}
+
+.add-application-button {
+  right: 18px;
+}
+
+.cancel-application-button {
+  right: 75px;
+}
+
+.applications {
+  list-style: none;
+}
+
+.collection-heading {
+  background: #f5ba13;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  margin: 16px;
+  float: left;
+  width: 75%;
+
+  font-weight: bolder;
+  color: #fff;
+}
+
+.collection-heading button {
+  float: right;
+  border: #f5ba13;
+  background-color: #f5ba13;
+  color: #fff;
+  font-weight: bolder;
+}
+
+.application {
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  margin: 16px;
+  float: left;
+  width: 75%;
+}
+
+.application-context {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.disabled-link {
+  cursor: not-allowed;
+  color: black;
+  pointer-events: none;
+}
+
+.update-date {
+  font-style: italic;
+  margin: 5px;
+}
+
+.application h1 {
+  font-size: 1.1em;
+  margin-bottom: 6px;
+}
+
+.application button {
+  position: relative;
+  margin-right: 10px;
+  color: #f5ba13;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 10px;
+}
+
+.job-description-link .link-tip {
+  visibility: hidden;
+  background-color: #f5ba13;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  font-weight: lighter;
+  font-size: small;
+  margin-left: 10px;
+
+  position: absolute;
+  z-index: 1;
+}
+
+.job-description-link:hover .link-tip{
+  visibility: visible;
+}
+
+.application-activities button {
+  float: right;
+}
+
+.edit-application-form {
+  position: relative;
+  float: left;
+  margin: 10px auto auto 0;
+  padding: 5px;
+  right: 10px;
+}
+
+.edit-application-form input {
+  margin: 5px;
+  border-color: #cccccc;
+  border-radius: 5px;
+  padding: 10px;
+  width: 260px;
+  left: 30%;
+}
+
+.edit-application-button {
+  float: right;
+}
+
+.edit-application-button--get_hired, .edit-application-button--no-selected {
+  float: left;
+  margin: 10px;
+}
+
+.histories {
+  font-size: 0.75em;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
